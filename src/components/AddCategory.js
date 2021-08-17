@@ -20,7 +20,7 @@ export const AddCategory = ({setcat})=> {
         <form onSubmit={hanldeSubmit}>
             <input 
                 type="text"
-                value={NewCat}
+                placeholder="Busca un gif"
                 onChange={(e)=>handleInputValue(e)}
             />
         </form>

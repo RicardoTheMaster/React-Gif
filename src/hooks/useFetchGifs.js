@@ -17,7 +17,6 @@ export const useFetchGifs = (cat) => {
                     data:imgs,
                     cargando:false,
                 })
-                console.log(imgs)
             }, 3000);
             
         })
