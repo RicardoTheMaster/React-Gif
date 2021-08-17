@@ -1,13 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&display=swap');
+html, body,input{
+    background-color: #21232A;
+    color:white;
+    font-family: 'Style Script', cursive,'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+    padding: 10px;
 }
+button{
+    font-size: 1.5rem;
+    margin-right: 15px;
+    padding: auto;
+}
+h2{
+    display: inline;
+} 
+input{
+    background-color: rgb(0, 87, 58);
+    color:black;
+    border:  black;
+}
+.card-grid{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2, minmax(200px,1fr));
+}
+.card{
+    align-content: center;
+    border: 4px ridge green;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    overflow: hidden;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.card img{
+    display: block;
+    max-height: 200px;
+    min-height: 80px;
+    border: 2px solid #0733d4;
+    margin:auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.card hr{
+    border-color: blueviolet;
+
+}
+.card h4{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    margin:10px;
+}
+.salida{
+    animation: flash;
+    animation-duration: 3s;
 }
