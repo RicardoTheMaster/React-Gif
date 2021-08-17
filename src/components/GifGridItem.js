@@ -6,7 +6,7 @@ const GifGridItem = ({id,tittle,url}) => {
     } 
     return (
         <div className="card animate__animated animate__flipInX">
-            <h4>{tittle}</h4> <hr/>
+            <h4>{tittle}</h4><hr/>
             <img src={url} alt={id}/>
                    
         </div>

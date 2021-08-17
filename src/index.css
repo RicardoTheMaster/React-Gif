@@ -5,11 +5,12 @@ html, body,input{
     color:white;
     font-family: 'Style Script', cursive,'Arial Narrow', Arial, sans-serif;
     font-size: 1.3rem;
-    padding: 10px;
+    padding: 2px;
 }
 button{
     font-size: 1.5rem;
     margin-right: 15px;
+    padding-left: 5px;
     padding: auto;
 }
 h2{
@@ -31,17 +32,13 @@ input{
     border-radius: 30px;
     margin-bottom: 5px;
     overflow: hidden;
-
 }
 .card img{
-    display: block;
-    max-height: 200px;
-    min-height: 80px;
-    border: 2px solid #0733d4;
-    margin:auto;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
+    width: 100%;
+    border: 2px solid #0733d4;
+
 }
 .card hr{
     border-color: blueviolet;
